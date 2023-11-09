@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 30px;
+  background-color: rgba(255, 182, 193);
+  overflow: hidden;
+}
+
+.readme {
+  position: absolute;
+  left: 5%;
+  top: 100px;
+  width: 250px;
+}
+
+.readme span {
+  font-size: 16px;
+  text-align: center;
+  color: red;
+  font-weight: 800;
+}
+
+.readme p {
+  display: block;
+  font-size: 16px;
+  text-indent: 20px;
+  color: black;
+}
+
+.tab {
+  margin: 100px auto 0;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #3cb371;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.text {
+  position: absolute;
+  right: 20%;
+  top: 100px;
+  color: red;
+  font-weight: 800;
+}
+
+.restart {
+  margin: 25px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.restart a {
+  font-size: 22px;
+  color: red;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.score {
+  color: black;
+  font-size: 36px;
+  font-weight: 800;
+}
